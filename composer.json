@@ -1,5 +1,6 @@
 {
-    "name": "georgringer/eventnews",
+    "name": "web-tp3/eventnews",
+	"version": "4.0.0",
     "type": "typo3-cms-extension",
     "description": "Extend EXT:news with event and calendar functionality",
     "keywords": [
@@ -8,12 +9,16 @@
         "event",
         "news"
     ],
-    "homepage": "https://ringer.it",
+    "homepage": "https://web.tp3.de",
     "authors": [
         {
             "name": "Georg Ringer",
             "role": "Developer"
-        }
+        },
+		{
+			"name": "Thomas Ruta",
+			"role": "Developer"
+		}
     ],
     "license": ["GPL-2.0-or-later"],
     "require": {

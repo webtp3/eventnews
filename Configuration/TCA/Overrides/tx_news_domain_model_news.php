@@ -45,8 +45,8 @@ $fields = [
             'items' => [
                 ['', 0],
             ],
-            'foreign_table' => 'tx_eventnews_domain_model_organizer',
-            'foreign_table_where' => 'ORDER BY tx_eventnews_domain_model_organizer.title',
+            'foreign_table' => 'tt_address',
+            'foreign_table_where' => 'ORDER BY tt_address.name',
             'minitems' => 0,
             'maxitems' => 1
         ],
@@ -62,8 +62,8 @@ $fields = [
             'items' => [
                 ['', 0],
             ],
-            'foreign_table' => 'tx_eventnews_domain_model_location',
-            'foreign_table_where' => 'ORDER BY tx_eventnews_domain_model_location.title',
+            'foreign_table' => 'tt_address',
+            'foreign_table_where' => 'ORDER BY tt_address.name',
             'minitems' => 0,
             'maxitems' => 1,
         ],
